@@ -1,0 +1,63 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 42px;
+    margin-top: 25px;
+    text-align: center;
+    font-weight: 600;
+    display: inline-block;
+}
+.about-company-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+}
+.about-company{
+    width: 70%;
+    height: 70%;
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: 0 0 15px 0 #A18356;
+    padding: 16px;
+}
+.about-company__description{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+.description{
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    color: rgb(89, 89, 89);
+    width: 50%;
+    height: 100%;
+    margin-top: 60px;
+}
+.about-company a{
+    color: white;
+    background-color: #A18356;
+    padding: 8px 20px;
+    border-radius: 3px;
+    font-weight: 450;
+    border: solid 1px #A18356;
+    transition: all 0.3s;
+}
+.about-company a:hover{
+    background-color: white;
+    color: #A18356;
+}
+.description__foto{
+    width: 50%;
+    height: 70%;
+}
+.description__foto img{
+    width: 70%;
+    height: 100%;
+    margin-left:60px;
+}
